@@ -2,9 +2,9 @@
 
 echo "this is the sub program!"
 
-<<<<<<< HEAD
+
 echo "this is the first change "
-=======
+
 
 echo " I don't want the other guy seeing this change yet"
->>>>>>> d8ee562e31796806bd939a2c3c620a8b36578683
+
