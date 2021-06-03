@@ -1,0 +1,22 @@
+#!/usr/bin/bash
+
+var="Hello"
+
+echo "$var world"
+
+x=2
+
+y=3
+
+echo $(($x + $y))
+
+echo "hello $(whoami)"
+
+echo -e "Now for the sub program!\n\n"
+
+files=/c/revature/*
+
+for file in $files
+do
+	echo $(basename $file)
+done
